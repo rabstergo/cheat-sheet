@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Main site</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+  
+  <!-- <br> - Перенос каретки -->
+  <h1>Hello<br>World</h1>
+
+  <!-- -------------------- -->
+  <!-- 1. Списки -->
+  <!-- -------------------- -->
+
+  <!-- Маркированный список -->
+  <ul>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+  </ul>
+
+  <!-- Нумерованный список -->
+  <ol>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+  </ol>
+
+  <!-- Список определений -->
+  <dl>
+    <dt>A</dt>
+      <dd>aaa</dd>
+    <dt>B</dt>
+      <dd>bbb</dd>
+    <dt>C</dt>
+     <dd>ccc</dd>
+  </dl>
+
+  <!-- -------------------- -->
+  <!-- 2. Изображения -->
+  <!-- -------------------- -->
+
+  <!--  src - ссылка на картинку
+        alt - текст, который отображается вместо картинки, если она не загрузилась
+        title - текст, который отображается при наведении мыши на картинку
+        width - ширина картинки в пикселях
+        height - высота картинки в пикселях -->
+  <img src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg">
+
+<!-- Семантичные изображения с подписью -->
+  <figure>
+    <img src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg">
+    <figcaption>
+      This is orange
+    </figcaption>
+  </figure>
+
+  <!-- -------------------- -->
+  <!-- 3. Ссылки и адреса  -->
+  <!-- -------------------- -->
+
+  <!-- Абсолютные адреса -->
+  <a target="_blank" href="https://google.com/">Google</a>
+  <img src="file:///C:/Users/admin/Desktop/Новая%20папка/image.jpg">File</img>
+
+  <!-- Относительные адреса -->
+  <link rel="stylesheet" href="style.css">
+  <img src="img/cat.jpg">
+  <img src="img/elephant.jpg">
+
+  <!-- Якоря -->
+  <h1 id="anchor">Якорь</h1>
+  <a href="#anchor">Перейти к якорю</a>
+
+  <!-- -------------------- -->
+  <!-- 4. Таблицы -->
+  <!-- -------------------- -->
+
+  <!-- <tr> (table row) -->
+  <!-- <th> (table header) -->
+  <!-- <td> (table data) -->
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Job</th>
+    </tr>
+    <tr>
+      <td>Karim</td>
+      <td>19</td>
+      <td>Student</td>
+    </tr>
+    <tr>
+      <td>Amin</td>
+      <td>11</td>
+      <td>Pro Gamer</td>
+    </tr>
+  </table>
+
+<!-- -------------------- -->
+<!-- 5. Формы -->
+<!-- -------------------- -->
+
+<form name="f1" method="get" action="enter_data.php">
+<input name="link" type="text" />Запрос: <br />
+
+<!-- Типы полей форм -->
+
+<!-- Основные -->
+<input type="text">
+<input type="password">
+<input type="checkbox">
+
+<input type="radio" name="gender" value="male" checked> Мужской<br>
+<input type="radio" name="gender" value="female"> Женский<br>
+<input type="radio" name="gender" value="other"> Другой
+
+<!-- С созданием кнопок -->
+<input type="file">
+<input type="reset">
+<input type="submit">
+
+<!-- Просто кнопка -->
+<button>Нажми на меня</button>
+
+  <script src='./dom.js'></script>
+</body>
+</html>

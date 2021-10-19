@@ -1,3 +1,7 @@
+def feature
+  puts 'my feature'
+end
+
 def rabstergo_method
 end
 

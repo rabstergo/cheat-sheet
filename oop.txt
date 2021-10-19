@@ -2,7 +2,13 @@ def feature
   puts 'my feature'
 end
 
+def my_error
+ return 'yee'
+end
+
 def rabstergo_method
+  #error
+  print 'error'
 end
 
 def index

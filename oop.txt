@@ -1,4 +1,4 @@
-def example
+def exampleMethod
   puts 'hello'
 end
 
